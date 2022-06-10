@@ -1,8 +1,8 @@
 /**
-* @name Optimal
-* @author KawaiiZenbo#8387 (287197076150812673)
-* @description everything we wanted in a theme, nothing we didnt - but now with less purple because I'd rather have discord colors.
-* @version 1.1.2
+* @name Optimalish
+* @author One-Nub, KawaiiZenbo#8387 (287197076150812673)
+* @description "Simple modernization theme, fork of the self declared \"Optimal theme\"."
+* @version 1.0.1
 */
 
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
@@ -172,12 +172,12 @@ div[id="user-context-call"],
     width: 8px;
     border-radius: 50%;
 	margin-left: -3px;
-	background-color: #a9aaab;
+	background-color: var(--text-muted);
 }
 
 .item-2LIpTv
 {
-	background-color: #dcddde;
+	background-color: var(--text-muted);
 }
 
 /* message text box rounding */
