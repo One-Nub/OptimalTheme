@@ -1,8 +1,8 @@
 {
     "name": "Optimalish",
-    "description": "everything we wanted in a theme, nothing we didnt - but now with less purple because I'd rather have discord colors",
-    "version": "1.1.2",
-    "author": "KawaiiZenbo#8387 (287197076150812673)",
+    "description": "Simple modernization theme, fork of the self declared \"Optimal theme\".",
+    "version": "1.0.1",
+    "author": "One-Nub, KawaiiZenbo#8387 (287197076150812673)",
     "theme": "Optimal.theme.css",
     "consent": "false",
     "license": "MIT"
