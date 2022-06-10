@@ -1,19 +1,25 @@
-# OptimalTheme 
-everything we wanted in a theme, nothing we didnt  
-Client mods other than Powercord have not been tested but should work  
+# Optimalish
+The [Optimal Theme](https://github.com/kawaiizenbo/OptimalTheme) but with some personal preference edits that makes the UI more appealing to look at compared to the original theme.
 
-## Includes:
-https://github.com/stickfab/pc-fluenticons
-https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal
+Client mods other than Powercord have not been tested but should work (as per the original repo).
 
-## How to install:  
+---
+## Installation:
 
 ### Powercord:
-Install [Theme Toggler](https://github.com/redstonekasi/theme-toggler), then clone this repo into your themes folder  
+- Clone this repo into your themes folder (`<powercord directory>/src/Powercord/themes`).
+- Install [Theme Toggler](https://github.com/redstonekasi/theme-toggler) *(optional)* to manage your installed theme(s).
 
-### BetterDiscord (ew):
-Place `Optimal.theme.css` into your themes folder
+### BetterDiscord:
+> Place `Optimal.theme.css` into your themes folder *(untested)*.
 
+---
 ## Screenshots:
-![Dark Mode](https://user-images.githubusercontent.com/48113593/164038847-19c1d9f6-5a8d-4f89-95e4-80e660102d26.png)
-![Light Mode](https://user-images.githubusercontent.com/48113593/164038910-b31acbda-d91c-4527-8d0f-77fb99419790.png)
+![optimalish-dark](https://user-images.githubusercontent.com/38899321/173006442-16763422-00d6-4b48-a820-2c6cc5ef725a.png)
+
+![optimalish-light](https://user-images.githubusercontent.com/38899321/173023630-a61e1ec6-eca4-4286-9913-be05658f4449.png)
+
+---
+## Includes content from:
+https://github.com/stickfab/pc-fluenticons
+https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal
