@@ -124,43 +124,51 @@ div[id="user-context-call"],
     top: -3px;
 }
 
-/* reorder top bar and make search bar wider by default */
-.searchBar-jGtisZ
-{
-    width: 210px;
+/* Search area that expands on hover, taken from Powercord snippits. */
+/**
+ * Created by lucism#3987 (307316554805018624)
+ * Snippet ID: 992457043468361860
+ */
+.searchBar-jGtisZ {
+    width: 27px;
+    transition: width 0.6s ease-in-out;
+}
+.focused-8aNhVB .searchBar-jGtisZ, .open-3y3yI_ .searchBar-jGtisZ, .searchBar-jGtisZ:hover {
+    width: 240px;
 }
 
-.iconWrapper-2awDjA
+/* Place search bar on far right. */
+.search-39IXmY
 {
-    order: -1;
+    order: 1;
 }
 
 /* role indicator background on user popout */
-.role-2TIOKu
-{
+/** Commented out since Discord changed stuff & I can't fix it without causing
+ *  the X button to be in the wrong spot :/
+ */
+/* .role-2TIOKu {
     position: relative;
     overflow: hidden;
-    z-index: 1;
-    border-radius: 6px;
+    border: none;
+    padding: 5px;
 }
 
-.roleCircle-1EgnFN
-{
-    width: 5 !important;
-    height: 5 !important;
-}
-
-.roleCircle-1EgnFN::before
-{
+.roleCircle-1EgnFN::before {
+    content: '';
     position: absolute;
-    content: "";
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background: inherit;
-    opacity: 0.15;
-    z-index: -1;
+    opacity: .15;
+    pointer-events: none;
+}  */
+
+/* In the meantime, restore a background color so roles aren't floating in the void. */
+.role-2TIOKu {
+    background: rgb(var(--bg1));
 }
 
 /* colored unread indicator */
