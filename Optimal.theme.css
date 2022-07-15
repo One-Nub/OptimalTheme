@@ -248,3 +248,59 @@ div[id="user-context-call"],
 .closeIcon-3eoP1e {
     display: none;
 }
+
+/**
+ * Snippet from the Powercord discord, minimizes the member list so it slides out on hover.
+ * Created by jonyroda97#0001 (98159081583292416)
+ * Snippet ID: 945865024117829632
+ */
+/*Minifiedmemberlist*/
+.membersWrap-3NUR2t {
+    min-width: unset;
+    width: 50px;
+    justify-content: right;
+    z-index: 2;
+    min-height: 100%;
+}
+
+.members-3WRCEx {
+    transition: transform var(--hover-animation-speed);
+}
+
+.membersWrap-3NUR2t:hover .members-3WRCEx {
+    transform: translateX(-190px);
+}
+
+.membersWrap-3NUR2t .membersGroup-2eiWxl::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    border-radius: 50px;
+    background: unset;
+    background-color: var(--seperator-color);
+    position: absolute;
+    left: -36px;
+    top: 29px;
+    margin-left: 0px;
+}
+
+.membersWrap-3NUR2t .members-3WRCEx .member-3-YXUe {
+    background-color: unset;
+    margin-left: 0px;
+    transition: margin-left var(--hover-animation-speed);
+}
+
+.membersWrap-3NUR2t:hover .members-3WRCEx .member-3-YXUe {
+    margin-left: 8px;
+}
+
+.membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
+    transform: translateX(-6px);
+}
+
+.membersWrap-3NUR2t .membersGroup-v9BXpm {
+    cursor: default;
+    transform: translateX(45px);
+    transition: transform var(--hover-animation-speed);
+    overflow: visible;
+}
